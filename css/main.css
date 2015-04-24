@@ -5,3 +5,122 @@ html{
 	box-sizing: inherit;
 }
 
+nav li {
+  float: left;
+  display: inline-block;
+}
+
+nav li{
+  width: 33.3%;
+  border: 1px solid red;
+  padding: .5em;
+  text-align: center;
+}
+
+nav ol{
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  padding: 0;
+}
+
+li:hover{
+  background-color: #000;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin: .1;
+  color: white;
+  padding-bottom: .1em;
+}
+
+h2 {
+  color: #Fff;
+  background-color: #000;
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+  clear: right
+}
+
+
+header {
+  background-color: #000;
+  padding-top: .5em;
+  overflow: hidden;
+}
+
+body{
+	margin: 0;
+}
+
+
+p {
+  margin-left: 15px;
+}
+
+div {
+  background-color: #000;
+
+  clear: both
+}
+
+
+.logo {
+  width: 100%;
+}
+
+.liver {
+  width: 100%;
+  border: 0;
+}
+
+.spag {
+  width: 50%;
+  border: 0;
+  float: left;
+}
+.lasagna {
+  width: 50%;
+  border: 0;
+  float: right;
+}
+
+
+.pizza-main {
+	float: left;
+	width: 100%;
+	clear: left;
+	margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.inset-right{
+	float: right;
+	width: 40%;
+	clear: right;
+}
+
+.clear-it{
+	float:right;
+	clear: both;
+	width: 40%;
+
+}
+
+.p{
+	margin-left: 0px;
+	clear:right;
+
+}
+
+.p1{
+	clear: left;
+}
