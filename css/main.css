@@ -1,5 +1,6 @@
-html{
+html {
 	box-sizing: border-box;
+        padding:1em 0;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
@@ -10,25 +11,29 @@ nav li {
   display: inline-block;
 }
 
-nav li{
+nav li {
   width: 33.3%;
-  border: 1px solid red;
-  padding: .5em;
   text-align: center;
 }
 
-nav ol{
+nav ol {
   overflow: hidden;
   margin: auto;
   width: 100%;
   padding: 0;
 }
 
-li:hover{
-  background-color: #000;
+nav ol li a {
+    display:block;
+    color:#000000;
+    padding:3em
 }
 
-a{
+li:hover {
+  /* background-color: #000; */
+}
+
+a {
   text-decoration: none;
   color: white;
 }
@@ -51,13 +56,12 @@ h2 {
 
 
 header {
-  background-color: #000;
-  padding-top: .5em;
-  overflow: hidden;
+  background-color: #FFF;
 }
 
 body{
-	margin: 0;
+    margin: 0;
+    padding: 1.5em 1.5em 0;
 }
 
 
@@ -83,23 +87,17 @@ div {
 
 .spag {
   width: 50%;
-  border: 0;
-  float: left;
-}
-.lasagna {
-  width: 50%;
-  border: 0;
-  float: right;
 }
 
+.lasagna {
+  width: 100%;
+  border: 0;
+}
 
 .pizza-main {
-	float: left;
-	width: 100%;
-	clear: left;
-	margin-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
+    float: left;
+    width: 100%;
+    clear: left;
 }
 
 .inset-right{
@@ -124,3 +122,26 @@ div {
 .p1{
 	clear: left;
 }
+
+/* background colours */
+.bgWhite {background-color:#FFFFFF}
+.bgGreen {background-color:#009C73}
+.bgRed {background-color:#D13E37}
+
+/* fonts */
+.niconne {font-family:'niconne'}
+
+/* general styling */
+.center {text-align:center}
+.bold {font-weight:bold}
+.big {font-size:1.5em}
+.black {color:#000000}
+.white {color:#FFFFFF}
+.padding1em {padding:1em}
+.width100 {width:100%}
+
+/* specific styling */
+h2.soGood {padding:1em}
+div.comeOnBy {color:#FFF; text-align:center}
+img.googleMap {width:100%}
+img.classicPizza {width:100%}

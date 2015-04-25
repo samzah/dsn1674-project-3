@@ -1,49 +1,119 @@
 <!DOCTYPE html>
-
 <html lang="en-ca">
-
 <head>
 	<meta charset="utf-8">
-	<meta name= "viewport" content="width=device-width", intial-scale=1>
-	<link href="css/main.css" rel="stylesheet">
-	<title> Lorenzo's </title>
+	<meta name="viewport" content="width=device-width", intial-scale=1>
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Niconne|Josefin+Sans:400,700" rel="stylesheet" type="text/css">
+	<title>Lorenzo's</title>
 </head>
-
-
 <body>
+	<a href="top"></a>
+	<header>
+		<img class="logo" src="images/logo.jpg" alt="Lorenzo's" />
+		<nav>
+			<ol>
+				<li class="bgGreen"><a href="#specials">Specials</a></li>
+				<li class="bgWhite"><a href="#top">Home</a></li>
+				<li class="bgRed"><a href="#menu">Menu</a></li>
+			</ol>
+		</nav>
+	</header>
 
-<header>
-	<img class="logo" src="images/logo.jpg"
-	<h1> So good you can taste the difference </h1>
+	<img class="pizza-main" src="images/pizza-main.jpg" alt="Lorenzo's Pizza" />
 
-	<nav>
-				<ol>
-					<li><a href="specials">Specials</a></li>
-					<li><a href="home">Home<a></li>
-					<li><a href="menu">Menu</a></li>
-				</ol>
-	</nav>
-</header>
+	<div>
+		<h2 class="soGood black bgWhite">So good you can taste the difference</h2>
+	</div>
 
-<img class="pizza-main" src="images/pizza-main.jpg" alt="">
-<p> Come on by we're open </p>
-
-<div>
-	<h2 id="Specials">Specials</h2>
-
-			<img class ="liver" src="images/liver.jpg" alt="">
-			<img class="lasagna" src="images/lasagna.jpg" alt="" >
-			<img class="spag" src="images/spag.jpg" alt="">
-</div>
-
-
-
-
-
-
-
-
-
+	<div class="comeOnBy bgRed padding1em center">
+		<p class="big bold">Come on by we're open</p>
+		<p>Monday - Saturday: 8am to 9pm</p>
+		<p>Sunday: 8am to 2pm</p>
+	</div>
+	
+	<div class="locationTitle black bgWhite center padding1em">
+		Location
+	</div>
+	
+	<div class="bgGreen white padding1em center">
+		Good friends are hard to find, so we made you a map
+	</div>
+	
+	<img class="googleMap" src="images/googleMap.png" />
+	
+	<div class="bgGreen white padding1em center">
+		3621 Innes Rd, Ottawa, ON K1C 1T1<br />
+		Phone (613) 837-7222
+	</div>
+	
+	<a name="specials"></a>
+	<div>
+		<h2 class="black bgWhite padding1em">Specials</h2>
+	</div>
+	
+	<div class="white bgRed center padding1em">
+		Made wholesome and hearty
+	</div>
+	
+	<table>
+		<tr>
+			<td style="width:50%">
+				<img class="liver" src="images/liver.jpg" alt="Lorenzo's Liver" />
+			</td>
+			<td style="width:50%">
+				<img class="lasagna" src="images/lasagna.jpg" alt="Lorenzo's Lasagna" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="center">
+				<img class="spag" src="images/spag.jpg" alt="Lorenzo's Spaghetti" />
+			</td>
+		</tr>
+	</table>
+	
+	<a name="menu"></a>
+	<div>
+		<h2 class="black bgWhite padding1em">Menu</h2>
+	</div>
+	
+	<div class="white bgGreen center padding1em">
+		Classic Pizza
+	</div>
+	
+	<img class="classicPizza" src="images/pizza-wide.jpg" alt="Lorenzo's pizza" />
+	
+	<div class="white bgGreen center padding1em">
+		Our dough is fresh and the sauce is homemade! Small Pizza 9", Medium Pizza 13", Large Pizza 15".
+	</div>
+	
+	<div class="white bgGreen center padding1em bold big">
+		Platters
+	</div>
+	
+	<img class="width100" src="images/platter-wide.jpg" />
+	
+	<div class="white bgGreen center padding1em">
+		Platters and traditional Italian signature dishes. Served with fries and coleslaw.
+	</div>
+	
+	<div class="white bgGreen center padding1em bold big">
+		Side Orders
+	</div>
+	
+	<img class="width100" src="images/apps-wide.jpg" />
+	
+	<div class="white bgGreen center padding1em">
+		Everything from Chicken Wings to Poutine.
+	</div>
+	
+	<div class="black bgWhite center padding1em">
+		Thank You for stopping by!
+	</div>
+	
+	<div class="white bgRed center padding1em">
+		<a href="#top">Back To Top</a>
+	</div>
+	
 </body>
-
 </html>
